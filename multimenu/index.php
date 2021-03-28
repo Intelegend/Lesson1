@@ -1,7 +1,8 @@
 <?php
-require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+/** @global CMain $APPLICATION */
+$APPLICATION->SetTitle("Тест");
+require_once ($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 echo 'Тест';
-require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");
-
+require_once ($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");
 ?>
 

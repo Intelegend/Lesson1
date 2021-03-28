@@ -1,7 +1,9 @@
 <?php
-require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+/** @global CMain $APPLICATION */
+$APPLICATION->SetTitle("Подменю 1.2");
+require_once ($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 echo 'Тест подменю 1.2 ';
-require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");
+require_once ($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");
 
 ?>
 
