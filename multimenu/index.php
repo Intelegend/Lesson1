@@ -1,9 +1,8 @@
 <?php
 /** @global CMain $APPLICATION */
-$APPLICATION->SetTitle("Тест меню 3.1");
+$APPLICATION->SetTitle("Тест");
 require_once ($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-echo 'Тест меню 3.1 ';
+echo 'Тест';
 require_once ($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");
-
 ?>
 
